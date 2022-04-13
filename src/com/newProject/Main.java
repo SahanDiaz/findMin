@@ -9,7 +9,8 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
         Parent parent = new Parent();
-        System.out.println("min value :     "+parent.findMin(parent.readIntegers()));
+       // System.out.println("min value :     "+parent.findMin(parent.readIntegers()));
+        parent.reverse(parent.readIntegers());
 
     }
 
