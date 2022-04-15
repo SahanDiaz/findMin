@@ -7,7 +7,7 @@ import static com.newProject.Main.scanner;
 public class Parent {
     public int[] readIntegers(){
 
-        System.out.print("plese enter element count : ");
+        System.out.print("please enter element count : ");
         int count = scanner.nextInt();
         int[] arr = new int[count];
         System.out.println("please enter num of element one by one : ");
